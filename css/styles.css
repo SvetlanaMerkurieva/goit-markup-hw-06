@@ -494,7 +494,11 @@ body {
 .logo-address{
     margin-right: 70px;
 }
-.social-footer .text {
+.social-footer {
+    margin-right: 93px;
+}
+.social-footer .text,
+.subscription .text {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -531,6 +535,7 @@ body {
 .footer-social:focus{
     background-color: #2196F3;
 }
+
 /* Модальное окно */
 .backdrop {
     position: fixed;
