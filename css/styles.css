@@ -446,6 +446,26 @@ body {
     color: #FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+.button-footer-submit {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    padding: 10px 28px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    min-width: 200px;
+}
+.button-footer-submit .send {
+    margin-left: 10px;
+}
 /* Подвал */
 .site-footer {
     background-color: #2F303A;
@@ -535,6 +555,18 @@ body {
 .footer-social:focus{
     background-color: #2196F3;
 }
+.form-and-button {
+    display: flex;
+}
+.form-footer {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
 
 /* Модальное окно */
 .backdrop {

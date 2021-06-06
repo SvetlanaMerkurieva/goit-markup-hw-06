@@ -374,12 +374,18 @@
             </div>
             <div class="subscription">
                 <p class="text">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
-                <form>
-                    <label>
-                        <input type="email" name="email"/>
-                    </label>
-                </form>
-                <button type="submit">Подписаться</button>
+                <div class="form-and-button">
+                    <form class="form-footer">
+                        <label>
+                            <input type="email" name="email" placeholder="E-mail"/>
+                        </label>
+                    </form>
+                    <button type="submit"class="button-footer-submit">Подписаться
+                        <svg class="send" width="24px" height="24px">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </div>
     </footer>
